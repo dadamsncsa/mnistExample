@@ -1,0 +1,10 @@
+type CanonicalIDXFile mixes Canonical<CanonicalIDXFile> {
+    // The ID of the file
+    Id: string
+
+    // A description of the file
+    Name: string
+
+    // URL to retrieve the file from
+    URL: string
+}

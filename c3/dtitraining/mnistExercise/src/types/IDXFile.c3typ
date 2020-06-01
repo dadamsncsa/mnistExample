@@ -1,0 +1,7 @@
+entity type IDXFile schema name "IDX_FILE" {
+    // The name of the file
+    name: string
+ 
+    // The url at which to get the file.
+    url: string
+}

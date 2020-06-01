@@ -1,0 +1,8 @@
+type TransformCanonicalIDXFileToIDXFile mixes IDXFile transforms CanonicalIDXFile {
+  // This field will take the value of the "id" field for the record
+ id: ~ expression "Id"
+ // The name field
+ name: ~ expression "Name"
+ // The url field
+ url: ~ expression "URL"
+}
