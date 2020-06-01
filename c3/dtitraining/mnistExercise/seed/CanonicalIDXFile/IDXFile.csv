@@ -1,0 +1,4 @@
+MNIST Training Images,http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+MNIST Training Labels,http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+MNIST Test Images,http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+MNIST Test Labels,http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
