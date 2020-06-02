@@ -4,4 +4,8 @@ entity type IDXFile schema name "IDX_FILE" {
  
     // The url at which to get the file.
     url: string
+
+    // Function to get the dataset from the IDX file.
+	@py(env='mnist')
+    getDataset: member function(): !Dataset py server
 }
