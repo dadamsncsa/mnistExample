@@ -6,6 +6,9 @@ entity type IDXFile schema name "IDX_FILE" {
     url: string
 
     // Function to get the dataset from the IDX file.
-	@py(env='mnist')
-    getDataset: member function(): !Dataset py server
+	@py(env='idxfile')
+    getFileSourceSpec: member function(enableLocalClientStorage: boolean = true): !FileSourceSpec py server
+
+    @py(env='idxfile')
+    getFileSourceSpecPreprocess: member function(serializedPreprocessor: string, preprocessFuncName: string, enableLocalClientStorage: boolean = true): !FileSourceSpec py server
 }

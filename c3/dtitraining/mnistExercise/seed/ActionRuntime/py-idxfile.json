@@ -1,6 +1,6 @@
 {
-    "id": "py-mnist",
-    "name": "py-mnist",
+    "id": "py-idxfile",
+    "name": "py-idxfile",
     "language": "Python",
     "runtime": "CPython",
     "runtimeVersion": "3.6",
@@ -10,6 +10,7 @@
     ],
     "modules": {
         "conda.numpy": "=1.16.4",
-        "conda.requests": "=2.23.0"
+        "conda.requests": "=2.23.0",
+        "conda.dill": "=0.3.2"
     }
 }
