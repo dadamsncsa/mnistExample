@@ -96,4 +96,4 @@ def getFileSourceSpecPreprocess(this, serializedPreprocessor, preprocessFuncName
     spec = c3.FileSourceCreateSpec(
         locationPrefix="{}".format(filepath),
         enableLocalClientStorage=enableLocalClientStorage)
-    return c3.FileSourceSpec.createFromNumpy(data, spec)
+    return c3.FileSourceSpec.createFromNumpy(preprocessed_data, spec)
