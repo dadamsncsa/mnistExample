@@ -1,5 +1,5 @@
 {
-  "name": "mnistExercise",
+  "name": "mnistExample",
   "description": "MNIST handwritten digits Exercise",
   "author": "DTI Training",
   "dependencies": ["standardDependencies", "machineLearning"]
