@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - requests
+  - pandas
+  - tensorflow=2.1
+  - python=3
+  - matplotlib
+  - numpy
+  - python-dateutil
+  - scikit-learn
+  - jupyter
+  - jupyter_contrib_nbextensions

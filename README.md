@@ -6,7 +6,7 @@ We implement it first using plain tensorflow and python which you can find in th
 
 ## Python Implementation
 
-To execute the python implementation, first use conda to install a new environment with the packages contained in `env.yaml`.
+To execute the python implementation, first use conda to install a new environment with the packages contained in `env.yaml`. (Use `env-osx.yaml` If you're a mac user.)
 
 ```
 conda create -p ./venv -f ./env.yaml
